@@ -4,11 +4,11 @@ def my_each (collection)# put argument(s) here
 
 #  items = []
   while i < collection.length
-    puts yield(collection[i])
+    yield(collection[i])
     i = i + 1
   end
 
-  #puts collection
+  collection
 
 end
 
