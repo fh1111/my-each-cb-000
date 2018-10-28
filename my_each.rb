@@ -4,7 +4,7 @@ def my_each (collection)# put argument(s) here
 
 #  items = []
   while i < collection.length
-    yield(collection[i])
+    puts "yield(collection[i])"
     i = i + 1
   end
 
